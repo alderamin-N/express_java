@@ -1,4 +1,6 @@
 package homeworks.oop.museum;
 
-public class Exhibit {
+public abstract class Exhibit {
+    abstract void care();
+    abstract void describe();
 }

@@ -1,4 +1,5 @@
 package homeworks.oop.pets;
 
-public class Pet {
+public abstract class Pet {
+    abstract void eat();
 }

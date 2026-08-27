@@ -1,4 +1,4 @@
 package homeworks.oop.aquarium;
 
-public class Creature {
+public abstract class Creature {
 }

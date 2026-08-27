@@ -1,4 +1,5 @@
 package homeworks.oop.restaurant;
 
-public class Dish {
+public abstract class Dish {
+    abstract void getDescription();
 }

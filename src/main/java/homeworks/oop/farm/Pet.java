@@ -1,4 +1,6 @@
 package homeworks.oop.farm;
 
-public class Pet {
+public abstract class Pet {
+    abstract void care();
+    abstract void produce();
 }

@@ -1,4 +1,7 @@
 package homeworks.oop.zoo;
 
-public class Animal {
+public abstract class Animal {
+    abstract void makeSound();
+    abstract void makeMove();
+
 }

@@ -1,4 +1,5 @@
 package homeworks.oop.botanicalGarden;
 
-public class Plant {
+public abstract class Plant {
+    abstract void care();
 }

@@ -1,9 +1,9 @@
-package practice.practice_5.task_1;
+package practice.oop.practice_5.task_1;
 
 public class Main {
 
     static void main(String[] args) {
-        Transport car = new Car();
+        Transport car = new Car(); //SOLID - L принцип подстановки Барборы Лисков
         Transport ship = new Ship();
         Transport plane = new Plane();
 

@@ -1,4 +1,4 @@
-package practice.practice_5.task_1;
+package practice.oop.practice_5.task_1;
 
 public class Ship extends Transport{
     public Ship (){
