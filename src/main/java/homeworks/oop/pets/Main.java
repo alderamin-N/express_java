@@ -66,12 +66,12 @@ public class Main {
         PetSystem tamagochi = new PetSystem();
         tamagochi.addPet(dog);
         tamagochi.showBehavior();
-        tamagochi.forcePetToPlay();
-        tamagochi.forcePetToWalk();
+        tamagochi.checkAnimal();
+
 
         tamagochi.addPet(new Cat());
         tamagochi.showBehavior();
-        tamagochi.forcePetToPlay();
+        tamagochi.checkAnimal();
 
     }
 }

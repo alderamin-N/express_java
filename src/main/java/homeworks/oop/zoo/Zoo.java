@@ -5,7 +5,7 @@ public class Zoo {
 
     public void addAnimal(Animal animal){
         this.animal = animal;
-        System.out.println("Животное " + this.animal + " в зоопарк");
+        System.out.println("Лог: добавлено " + this.animal + " в зоопарк");
     }
 
     public void showBehavior(){

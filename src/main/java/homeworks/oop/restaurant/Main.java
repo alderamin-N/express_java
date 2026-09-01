@@ -46,7 +46,7 @@ public class Main {
         Drink latte = new Drink(250);
         menu1.addDish(latte);
         menu1.showCharacteristic();
-        HotDish kasha = new HotDish();
+        HotDish kasha = new HotDish(80);
         menu1.addDish(kasha);
         menu1.showCharacteristic();
 

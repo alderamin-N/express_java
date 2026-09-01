@@ -11,4 +11,5 @@ public class Menu {
     public void showCharacteristic(){
         dish.getDescription();
     }
+
 }

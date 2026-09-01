@@ -37,12 +37,11 @@ public class Main {
         Shark shark = new Shark();
         Aquarium aquarium = new Aquarium();
         aquarium.addCreature(shark);
-        aquarium.showDescriptionOfShark();
-        aquarium.showDescriptionOfStarfish();
+        aquarium.showBehavior();
 
         Starfish starfish = new Starfish();
         aquarium.addCreature(starfish);
-        aquarium.showDescriptionOfStarfish();
+        aquarium.showBehavior();
     }
 
 

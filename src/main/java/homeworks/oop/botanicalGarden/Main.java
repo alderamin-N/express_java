@@ -33,7 +33,7 @@ package homeworks.oop.botanicalGarden;
 public class Main {
     public static void main(String[] args){
         Orchid orchidOrange = new Orchid();
-        BotanicalGargen gardenP =new BotanicalGargen();
+        BotanicalGarden gardenP =new BotanicalGarden();
 
         gardenP.addPlant(orchidOrange);
         gardenP.showCare();

@@ -1,7 +1,11 @@
 package homeworks.oop.restaurant;
 
 public class HotDish extends Dish{
-    private int temperature = 45;
+    private int temperature;
+
+    public HotDish(int temperature){
+        this.temperature = temperature;
+    }
 
 
     public int getTemperature() {

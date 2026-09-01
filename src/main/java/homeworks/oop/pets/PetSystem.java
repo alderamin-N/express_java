@@ -5,33 +5,22 @@ public class PetSystem {
 
     public void addPet(Pet pet){
         this.pet = pet;
-        System.out.println("Лог: Питомец добавлен " + this.pet);
+        System.out.println("Лог: добавлен " + this.pet);
     }
 
     public void showBehavior(){
         pet.eat();
     }
 
-    public void forcePetToPlay(){
-        if(this.pet instanceof Playable){
-            Playable playable = (Playable) this.pet;
-            playable.play();
+    public void checkAnimal(){
+        if(this.pet instanceof Dog){
+            Dog dog = (Dog)this.pet;
+            dog.walk();
         }
         else{
-            System.out.println("Ошибка: Питомец не играет");
+            Cat cat = (Cat)this.pet;
+            cat.play();
         }
     }
-
-    public void forcePetToWalk(){
-        if(this.pet instanceof Walkable){
-            Walkable walkableable = (Walkable) this.pet;
-            walkableable.walk();
-        }
-        else{
-            System.out.println("Ошибка: Питомец не гуляет");
-        }
-    }
-
-
 
 }

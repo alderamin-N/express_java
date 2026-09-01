@@ -42,7 +42,7 @@ public class Main {
         ferma1.showCare();
         ferma1.showProduce();
 
-        Chiken ryba = new Chiken();
+        Chicken ryba = new Chicken();
         ferma1.addPet(ryba);
         ferma1.showCare();
         ferma1.showProduce();

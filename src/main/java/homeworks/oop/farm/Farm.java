@@ -5,7 +5,7 @@ public class Farm {
 
     public void addPet(Pet pet){
         this.pet = pet;
-        System.out.println("Лог: добавлено животное на ферму " + this.pet);
+        System.out.println("Лог: добавлено на ферму " + this.pet);
     }
 
     public void showCare(){
