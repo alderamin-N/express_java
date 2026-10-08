@@ -38,7 +38,7 @@ public class Main {
         }
 
         //проверка task 2
-        divisinByZero(3, 0);
+        divideByZero(5, 0);
 
         //проверка task 3
         try {
@@ -48,14 +48,14 @@ public class Main {
         }
 
         //проверка task 4
-        checkMail("kus@gmail.co");
+        checkMail("kus@mail.co");
 
     }
 
     //task 2
-    public static void divisinByZero(int a, int b) {
+    public static void divideByZero(int a, int b) { //изменила на divide наименование метода
         try {
-            double result = (double) (a / b);
+            double result = ((double)a / b); // привела к double делимое
             System.out.println(result);
         } catch (ArithmeticException e) {
             System.out.println("Деление на ноль запрещено");
@@ -74,7 +74,7 @@ public class Main {
 
     //task 4
     public static void checkMail(String email) {
-        Pattern pattern = Pattern.compile(".+@gmail\\.com");
+        Pattern pattern = Pattern.compile("^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"); //изменила регулярное выражение
         Matcher matcher = pattern.matcher(email);
         if (matcher.matches()) {
             System.out.println("Email корректный");

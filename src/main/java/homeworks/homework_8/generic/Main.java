@@ -21,10 +21,10 @@ public class Main {
         //проверка task 1
         Box<String> box1 = new Box<>();
         box1.setElement("First");
-        box1.getElement();
+        System.out.println(box1.getElement()); //вывела на экран
         Box<Integer> box2 = new Box<>();
         box2.setElement(12);
-        box2.getElement();
+        System.out.println(box2.getElement());//вывела на экран
 
         //проверка task 2
         method(new String[]{"1", "2"});
@@ -34,8 +34,8 @@ public class Main {
         Pair<String, Integer> pair = new Pair<>();
         pair.setFirst("First");
         pair.setSecond(1);
-        pair.getFirst();
-        pair.getSecond();
+        System.out.println(pair.getFirst()); //вывела на экран
+        System.out.println(pair.getSecond()); //вывела на экран
 
 
     }
